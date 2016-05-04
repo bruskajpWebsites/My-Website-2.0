@@ -1,0 +1,27 @@
+html, body {
+  background-color: #89bdd3;
+  <!-- #3fb0ac #fae596 #c9c9c9 -->
+  <!-- #c9c9c9 #e3e3e3 #9ad3de #89bdd3 -->
+  <!-- #252839 #677077 #b5b5b7 #f2b632 -->
+}
+
+.test {
+    background-color: #252833;
+}
+
+header {
+
+  border-bottom: 2px solid #ccc;
+
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+
+  padding: 20px 0;
+}
+
+header a {
+  margin 0;
+  text-align: center;
+  color: #ffffff
+}
