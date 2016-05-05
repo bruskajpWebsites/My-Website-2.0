@@ -60,7 +60,7 @@ var main = function () {
 
   $('.dropdown-menu').click(function () {
     // check if this referes to the menu or the link (assumes link)
-    $(this)
+    
   });
 }
 
