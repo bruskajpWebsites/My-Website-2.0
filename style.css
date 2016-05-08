@@ -1,11 +1,11 @@
 html, body {
-  background-color: #89bdd3;
-  <!-- #3fb0ac #fae596 #c9c9c9 -->
+  background-color: #252833;
+  <!-- #3fb0ac #fae596 #173e43-->
   <!-- #c9c9c9 #e3e3e3 #9ad3de #89bdd3 -->
   <!-- #252839 #677077 #b5b5b7 #f2b632 -->
 }
 
-.test {
+.upperBar {
     background-color: #252833;
 }
 
@@ -19,6 +19,7 @@ header {
 
 .menu {
   text-align: center;
+  display: flex;
 }
 
 header a:link {
@@ -41,4 +42,91 @@ header li {
   text-align: center;
 }
 
+.transparent {
+  background-color: rgba(0, 0, 0, 0);
+}
+
 /* change background color of menu*/
+
+.outline {
+  background-image: url("backgroundRepeated.jpeg");   /*https://www.pexels.com/photo/white-snow-covered-mountain-under-blue-sky-68399/*/
+  background-repeat: repeat;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bodyElement {
+  padding-bottom: 20px;
+  border-right: inset;
+  border-left: inset;
+  border-width: thick;
+  background-color: rgba(227, 227, 227, 0.85);
+}
+
+.bodyElement h2 {
+  text-decoration: underline;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-top: solid;
+  border-color: #89bdf3;
+  border-width: 2px;
+  color: #252833;
+}
+
+.bodyElement li {
+  font-size: 17px;
+  font-weight: bold;
+  list-style: none;
+  text-align: left;
+  border-left: solid;
+  border-width: 2px;
+  border-color: #89bdf3;
+  margin-top: 6px;
+  padding-left: 10px;
+  color: #252833;
+}
+
+.topBodyBorder {
+  border: inset;
+  border-bottom: none;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-width: thick;
+  background-color: rgba(227, 227, 227, 0.85);
+}
+
+.bottomBodyBorder {
+  border: inset;
+  border-top: none;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-width: thick;
+  background-color: rgba(227, 227, 227, 0.85);
+}
+
+.lowerBar {
+    background-color: #252833;
+}
+
+footer {
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  padding: 20px 0;
+  color: #ccc;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
